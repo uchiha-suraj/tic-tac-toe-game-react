@@ -9,7 +9,7 @@ const SquareComponent = (props) => {
     >
       {props.state}
     </span><span
-      
+       
     >
       {props.state}
     </span>
