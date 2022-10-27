@@ -8,6 +8,11 @@ const SquareComponent = (props) => {
       onClick={() => props.onClick(props.index)}
     >
       {props.state}
+    </span><span
+      className={classes}
+      onClick={() => props.onClick(props.index)}
+    >
+      {props.state}
     </span>
   )
 }
